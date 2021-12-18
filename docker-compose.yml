@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  web:
+    image: tw_oauth_demo:uv-202112
+    build:
+      context: .
+    volumes:
+      - .:/shared
+    working_dir: /shared
+

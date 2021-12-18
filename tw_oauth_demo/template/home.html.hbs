@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>tw_oauth_demo</title>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  {{#if screen_name}}
+  <div>
+    <img src="{{profile_image_url_https}}"/>
+  </div>
+  <div>
+     {{screen_name}} 
+  </div>
+  <div style="margin-top: 20px">
+    <a href="/home">もう一度</a>
+  </div>
+  {{else}}
+  <div>
+    <a href="/auth">認証する</a>
+  </div>
+  {{/if}}
+</body>
+</html>
