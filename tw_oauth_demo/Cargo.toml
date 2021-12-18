@@ -1,0 +1,23 @@
+[package]
+name = "tw_oauth_demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-session = "0.4.1"
+actix-web = { version = "3.3.2", features = ["rustls"] }
+awc = "2.0.3"
+base64 = "0.13.0"
+chrono = "0.4.19"
+config = "0.11.0"
+dotenv = "0.15.0"
+handlebars = "4.1.6"
+rust-crypto = "0.2.36"
+serde = "1.0.132"
+serde_json = "1.0.73"
+thiserror = "1.0.30"
+url = "2.2.2"
+urlencoding = "2.1.0"
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
